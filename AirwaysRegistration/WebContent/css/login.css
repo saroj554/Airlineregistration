@@ -1,0 +1,14 @@
+form
+{
+width:50vw;
+position:fixed;
+top:100px;
+left:40vw;
+}
+
+div.col-lg-7{
+background-image:url('images/loginimage.jpg');
+background-repeat: no-repeat;
+width: 120%;
+height: 100vh;
+}

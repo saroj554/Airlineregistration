@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: #ececec;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	position: fixed;
+	top: 70px;
+	left: 25vw;
+}
+
+.textArea {
+	text-align: center;
+}
+
+table {
+	padding: 20px;
+	background-color:#e4dbff;
+	border-radius: 10px;
+	box-shadow: -5px 10px 8px 	#d3f8ff;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.add {
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #e1d8c7;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="TicketBooking" method="post">
+	<h2>Booking section</h2>
+		<table>
+		
+		<tr>
+				<td><h3>Enter number of seats:</h3></td>
+				<td class="textArea"><input type="number" name="noOfseat" required></td>
+			</tr>
+			
+			<tr>
+			<tr>
+				<td><h3>Enter your name:</h3></td>
+				<td class="textArea"><input type="text" name="pname" required></td>
+			</tr>
+			<tr>
+				<td><h3>Enter your age:</h3></td>
+				<td class="textArea"><input type="number" name="page" required></td>
+			</tr>
+			<tr>
+				<td><h3>Enter your mobile no:</h3></td>
+				<td class="textArea"><input type="number" name="pmobile"
+					required></td>
+			</tr>
+			<tr>
+				<td><h3>Enter your email id:</h3></td>
+				<td class="textArea"><input type="email" name="pemail" required></td>
+			</tr>
+
+		</table>
+		<button type="submit" class="add">Add</button>
+
+	</form>
+</body>
+</html>

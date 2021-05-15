@@ -1,0 +1,31 @@
+.image{
+	background-image: url("images/Dashboardimage.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+}
+a
+{
+margin:5px 10px;
+padding:4px;
+color:white;
+opacity:0.8;
+font-family: "Quicksand", sans-serif;
+text-decoration:none;
+}
+a:hover
+{
+font-weight:bold;
+opacity:1;
+background-color:#BAD145;
+}
+header
+{
+	background-color:#7B2424;
+	z-index:-1;
+}
+p{
+	height:100px;
+	width:200px;
+}

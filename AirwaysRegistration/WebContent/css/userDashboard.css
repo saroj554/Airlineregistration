@@ -1,0 +1,17 @@
+form {
+	width: 50vw;
+	position: fixed;
+	top: 100px;
+	left: 40vw;
+}
+
+.btn btn-success {
+	border-radius: 4px;
+	background-color: #7fc8e3;
+}
+
+* {
+	background-color: #65bd51 ;
+	
+}
+

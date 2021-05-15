@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* *{ */
+/* border: 1px solid red; */
+/* } */
+body{
+background-color: #ececec;
+}
+form
+{
+display:flex;
+flex-direction:column;
+width:50vw;
+position:fixed;
+top:70px;
+left:25vw;
+}
+.textArea{
+text-align:center;
+}
+table{
+padding:20px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 5px 10px 8px #a3a3a3;
+}
+h2{
+width:100%;
+text-align:center;
+}
+.add{
+margin-top: 20px;
+border-radius:5px;
+background-color:#cccccc;
+
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Add Flight</h2>
+<form action="AddFlight" method="post">
+<table>
+	<tr>
+		<td><h3>Flight Name:</h3></td>
+		<td class="textArea"><input type="text" name="flightName" required></td>
+	</tr>
+	<tr>
+		<td><h3>Price:</h3></td>
+		<td class="textArea"><input type="number" name="price" required></td>
+	</tr>
+	<tr>
+		<td><h3>Source:</h3></td>
+		<td class="textArea"><input type="text" name="source" required></td>
+	</tr>
+	<tr>
+		<td><h3>Destination:</h3></td>
+		<td class="textArea"><input type="text" name="destination" required></td>
+	</tr>
+	<tr>
+		<td><h3>FlightDate:</h3></td>
+		<td class="textArea"><input type="date" name="flightDate" required></td>
+	</tr>
+	<tr>
+		<td><h3>totalSeat:</h3></td>
+		<td class="textArea"><input type="number" name="totalSeat" required></td>
+	</tr>
+	<tr>
+		<td><h3>Available seat:</h3></td>
+		<td class="textArea"><input type="number" name="abvailableSeat" required></td>
+	</tr>
+</table>
+<button type="submit" class="add">Add</button>
+</form>
+</body>
+</html>
